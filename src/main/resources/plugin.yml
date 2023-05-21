@@ -1,0 +1,4 @@
+name: PremiumFarming
+version: '${project.version}'
+main: ca.pandaaa.premiumfarming.PremiumFarming
+api-version: 1.19
