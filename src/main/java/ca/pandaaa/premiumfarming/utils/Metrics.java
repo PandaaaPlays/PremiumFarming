@@ -1,4 +1,4 @@
-package ca.pandaaa.utils;
+package ca.pandaaa.premiumfarming.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;

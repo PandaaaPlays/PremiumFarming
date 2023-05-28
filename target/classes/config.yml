@@ -1,0 +1,38 @@
+# Use this document to configure the settings of your PremiumFarming Plugin.
+# If you require any assistance with the plugin, please contact me on discord (https://discord.io/AnimalPlugins).
+#   _____         ___ _                 _   _
+#  |     |___ ___|  _|_|___ _ _ ___ ___| |_|_|___ ___
+#  |   --| . |   |  _| | . | | |  _| .'|  _| | . |   |
+#  |_____|___|_|_|_| |_|_  |___|_| |__,|_| |_|___|_|_|
+#                      |___|
+#
+# The message displayed when the command provided is invalid.
+unknown-command: "&c&l[!] &cUnknown Command."
+
+# The message displayed when the sender of the command does not have the permission to execute the command.
+no-permission: "&c&l[!] &cYou do not have enough permission to do this."
+
+# The message displayed as the title of every tool in the listing command. You may use %tool_id% for the id of the tool (e.g : tractor)
+list-name: "&f&l- %tool% &f:"
+
+# The messages displayed for all the descriptions of tool in the listing command.
+list-description: "  &2&l* %description%"
+
+# The message displayed when the give command arguments are incorrect (e.g : No tool is provided).
+incorrect-give-arguments: "&c&l[!] &cIncorrect argument(s) : /premiumfarming give [player] [tool]"
+
+# The message displayed when the give command is used with an invalid player username.
+# This message will also trigger if the player is offline!
+incorrect-give-player: "&c&l[!] &cIncorrect player : %player% is not online."
+
+# The message displayed when the give command is used with an unexisting tool name.
+incorrect-give-tool: "&c&l[!] &cIncorrect tool : %tool% is unknown."
+
+# The message displayed to the receiver of the tool. You may use %tool_id% for the id of the tool (e.g : tractor)
+tool-received-message: "&2&lPrem&a&lium&8&lFarm&7&ling &7&l>> &aYou received a &2%tool%&a from &2%sender%&a."
+
+# The message displayed to the sender of the tool. You may use %tool_id% for the id of the tool (e.g : tractor)
+tool-sent-message: "&2&lPrem&a&lium&8&lFarm&7&ling &7&l>> &2%receiver%&a successfully received a &2%tool%&a."
+
+# The message displayed when the configuration of the plugin is reloaded.
+plugin-reload: "&2&lPrem&a&lium&8&lFarm&7&ling &7&l>> &aPlugin Reloaded."

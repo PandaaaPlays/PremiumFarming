@@ -10,4 +10,7 @@ commands:
 premissions:
   premiumfarming.config:
     default: op
-    description: ????
+    description: Permission to do /pf [list, reload]
+  premiumfarming.admin:
+    default: op
+    description: Permission to do /pf give

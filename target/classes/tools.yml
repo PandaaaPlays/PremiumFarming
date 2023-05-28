@@ -1,0 +1,41 @@
+# Use this document to configure the messages of your PremiumFarming Plugin.
+# If you require any assistance with the plugin, please contact me on discord (https://discord.io/AnimalPlugins).
+#   _____               _           _____               _
+#  |  _  |___ ___ _____|_|_ _ _____|   __|___ ___ _____|_|___ ___
+#  |   __|  _| -_|     | | | |     |   __| .'|  _|     | |   | . |
+#  |__|  |_| |___|_|_|_|_|___|_|_|_|__|  |__,|_| |_|_|_|_|_|_|_  |
+#                                                            |___|
+# Placeholders:
+# Use '&' to use the basic minecraft color code.
+# The plugin also supports hex colors : '&#123456'
+# To create color gradients, you can use : https://rgb.birdflop.com/
+# >> -> Changes automatically to the double arrow character.
+
+# The farming tools:
+tools:
+  # The name of the tool, basically a key word to know which tool is which (it is basically every tools' id).
+  # Make sure every tool has a different name (no duplicates!)
+  rank:
+    # The in-game name of the tool.
+    name: "&a&k:&8[&2&lTrac&a&ltor&8]&a&k:"
+    # The description of the tool shown in /premiumfarming list
+    description:
+      - "&fThis tool can be used to harvest"
+      - "&fyour &a&mcrops &fquicker!"
+    # The in-game lore of the tool.
+    lore:
+      - "&7&o(Right click on a crop to harvest!)"
+      - "&fUses left : &a&l%amount%"
+    # The material (type) of the tool.
+    # Please refer to the bukkit list of materials: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    item: DIAMOND_HORSE_ARMOR
+    # The type of the tool (options: tractor, tool)
+    type: tractor
+    # Should the tool be enchanted?
+    enchanted: true
+    # How many time(s) can the tool be used (Max: 2 147 483 647)? (Use -1 for infinite)
+    uses: -1
+    # The sound played to the player who clicked the tool.
+    # Please refer to the bukkit list of sound: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
